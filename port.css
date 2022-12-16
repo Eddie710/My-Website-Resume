@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("/MyPortfollio/Images/purplehex.png");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+#logo{
+    margin-top: 80px;
+    margin-left: 32%;
+    margin-right: 68%;
+    width: 800px;
+    font-size: 80px;
+    color: rgb(164, 10, 225);
+}
+
+#res{
+    text-decoration: none;
+}
+
+#nav{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 46%;
+    margin-right: 45%;
+    margin-top: 30px;
+
+}
+
+#nav>button{
+    margin-right: 30px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: rgb(164, 10, 225);
+}
+
+
+
+#nav>button:hover{
+    background-color: rgb(53, 53, 53);
+    color: purple;
+    border-radius: 25px;
+}
+
+#aboutMe{
+    display: flex;
+    flex-direction: column;
+    width: 1245px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 17%;
+    text-align: center;
+    font-size: 12px;
+}
+
+#sec1{
+    color: rgb(241, 210, 240);
+    border: 1px solid purple;
+    border-radius: 75px;
+    width: 650px;
+}
+#sec1>h1{
+    margin-bottom: 5px;
+    color: rgb(255, 180, 251);
+
+}
+
+#sec2{
+    color: rgb(164, 164, 164);
+    border: 1px solid purple;
+    border-radius: 25px;
+    right: 0%;
+    margin-left: 60%;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+}
+
+#sec2>h1{
+    margin-bottom: 5px;
+    color: rgb(255, 180, 251);
+
+}
+#sec2>a>img{
+    width: 100px;
+    height: 100px;
+}
+
+#projects{
+    display: flex;
+    flex-direction: row;
+    width: 945px;
+    height: fit-content;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 280px;
+    flex-wrap: wrap;
+
+    
+}
+
+#projects>div{
+    color: rgb(255, 180, 251);
+    margin-right: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid purple;
+    margin-bottom: 10px;
+}
+
+.thumbnail{
+    filter:blur(0px);
+    transition:1s;
+}
+
+.tooltip{
+    visibility:hidden;
+    width:284px;
+    padding:8px;
+    background-color: rgb(33, 3, 42);
+    color: rgb(255, 180, 251);
+    text-align: center;
+    border-radius:10px;
+    position:absolute;
+    z-index:1;
+    margin:auto;
+    justify-content: center;
+}
+
+
+
+
+#p1:hover{
+    transition:1s;
+}
+
+#p1:hover .tooltip{
+    visibility: visible;
+    
+}
+
+#p2:hover{
+    transition:1s;
+}
+
+#p2:hover .tooltip{
+    visibility: visible;
+    
+}
+#p3:hover{
+    transition:1s;
+}
+
+#p3:hover .tooltip{
+    visibility: visible;
+    
+}
+#p4:hover{
+    transition:1s;
+}
+
+#p4:hover .tooltip{
+    visibility: visible;
+    
+}
+#p5:hover{
+    transition:1s;
+}
+
+#p5:hover .tooltip{
+    visibility: visible;
+    
+}
+#p6:hover{
+    transition:1s;
+}
+
+#p6:hover .tooltip{
+    visibility: visible;
+    
+}
+
+#p7{
+    margin-left: 140px;
+}
+
+#p7:hover{
+    transition:1s;
+}
+
+#p7:hover .tooltip{
+    visibility: visible;
+    
+}
+#p8:hover{
+    transition:1s;
+}
+
+#p8:hover .tooltip{
+    visibility: visible;
+    
+}
