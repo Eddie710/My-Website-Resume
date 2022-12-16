@@ -3,7 +3,7 @@
     margin: 0%;
 }
 body{
-    background-image: url("/MyPortfollio/Images/purplehex.png");
+    background-image: url("./purplehex.png");
     background-repeat: no-repeat;
     background-color: black;
 }
